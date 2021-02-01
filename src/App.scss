@@ -2,7 +2,7 @@
 
 $color-theme: #06874e;
 $color-back: #ededed;
-
+ 
 body {
     margin: 0;
 }
@@ -30,6 +30,10 @@ code {
     width: 350px;
     background-color: #fff;
     padding: 25px;
+	@media screen and (max-width: 400px) {
+    width:auto
+    }
+		
     .title {
         text-align: center;
         font-size: 29px;
